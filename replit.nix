@@ -1,5 +1,5 @@
-{pkgs}: {
+{ pkgs }: {
   deps = [
-    pkgs.python-launcher
+    pkgs.python39  # or another version like pkgs.python38
   ];
 }
